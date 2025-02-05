@@ -1,24 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-  <metadata>
-    <id>verpatch</id>
-    <version>1.0.15</version>
-    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-verpatch/tree/v1.0.15</packageSourceUrl>
-    <owners>sublym0nal</owners>
-    <title>Verpatch</title>
-    <authors>Pavel A.</authors>
-    <projectUrl>https://github.com/pavel-a/ddverpatch</projectUrl>
-    <copyright>Copyright (c) 1999, 2020 Pavel A.</copyright>
-    <licenseUrl>https://github.com/pavel-a/ddverpatch/blob/master/LICENSE</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/pavel-a/ddverpatch/tree/1.0.15</projectSourceUrl>
-    <docsUrl>https://github.com/pavel-a/ddverpatch/wiki</docsUrl>
-    <!--<mailingListUrl>No mailing list or forum is available</mailingListUrl>-->
-    <bugTrackerUrl>https://github.com/pavel-a/ddverpatch/issues</bugTrackerUrl>
-    <tags>verpatch version resource versioninfo embedded</tags>
-    <summary>A tool to patch Win32 version resources on PE files</summary>
-    <description><![CDATA[## Verpatch
+## Verpatch
 
 Verpatch is a command line tool for adding and editing the version information of Windows executable files (applications, DLLs, kernel drivers) without rebuilding the executable.
 
@@ -61,14 +41,3 @@ Alternative attribute names to use with /s (see documentation for details):
 ```
 
 For more information (e.g., example details, reference materials, notes, known issues, etc.), refer to [the readme file](https://github.com/pavel-a/ddverpatch/blob/1.0.15/verpatch-ReadMe.txt).
-]]></description>
-    <releaseNotes>https://github.com/pavel-a/ddverpatch/blob/1.0.15/verpatch-ReadMe.txt</releaseNotes>
-  </metadata>
-  <files>
-    <file src="tools\chocolateybeforemodify.ps1" target="tools" />
-    <file src="tools\chocolateyinstall.ps1" target="tools" />
-    <file src="tools\verpatch-*-x86-codeplex.zip" target="tools" />
-    <file src="tools\LICENSE.txt" target="tools" />
-    <file src="tools\VERIFICATION.txt" target="tools" />
-  </files>
-</package>
